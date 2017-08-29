@@ -2,24 +2,28 @@ body {
 
 	background-image: url('../images/background.png');
 	background-repeat: repeat;
-	height: 100%;
+	min-height: 100%;
 	
 }
 
-.wrapper{
-	width: 960px;
+/*
+#wrapper{
+	
+	
 	position: relative;
 	margin: 0 auto;
 	border: 1px solid #dddddd;
-	height: 100%;
+	min-height: 100%;
 
-}
 
-.mainTop{
+}*/
+
+
+#mainTop{
 	margin: 0 auto;
 	width: 100%;
 	height: 80px;
-	border-bottom: solid 1px #dddddd;
+	border-bottom: solid 3px #dddddd;
 	position:relative;
 	background: #ffffff;/* was yellow before*/
 	margin-bottom: 20px;
@@ -31,24 +35,26 @@ header{
 	background: #4aaaa5;
 	color: white;
 	left: 100px;
-	bottom: 0;
-	height: 50px;
+	top: 0px;
+	margin-bottom: 30px;
 	font-size: 40px;
-	padding:20px;
+	padding: 20px;
+
 	
 }	
 
 nav{
 	
 	position: absolute;
-	right:20px;
-	bottom: 0;
-	color:#666460;
-	padding-bottom: 20px;
-	
+	right: 200px;
+	top: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 }
 
+
+/*to space out the links*/
 .links{
 	padding:10px;
 	color: #777777;
@@ -57,51 +63,51 @@ nav{
 }
 
 
-
 a.links:hover{
 	 background-color: lightblue;
 }
 
 
-
 .middleSection{
 	
-	/*background: #ffffff*/;/*was pink before*/
-	border-bottom: solid 1px #dddddd;
-	position: relative;
-	height: 700px;
 	
-
-
+	border-bottom: solid 1px #dddddd;
+	/*position: relative;*/
+	
 }
+
 
 section{
 	background: #ffffff; /*was blue before*/
 	float: left;
-	width: 502px;
-	margin-bottom: 20px;
-	position: absolute;
-	top:34px;
-	left: 100px;
+	width: 650px;
+	margin: 0 100px;
+	margin-bottom: 90px;
+	/*position: absolute;
+	top:30px;
+	left: 200px;*/
 	padding-left: 10px;
 	margin-right: 10px;
 	clear: both;
 	padding-right: 10px;
 	border: solid 1px #dddddd;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 
 }
 
 aside{
 	background: #ffffff; /*was red before*/
-	float: left;
-	width: 250px;
+	float: right;
+	width: 240px;
+	margin-top: 0 ;
+	margin-right:200px;
+
 	padding-bottom: 10px;
-	position: absolute;
-	top:34px;
-	right:20px;
+	/*position: absolute;
+	top:30px;
+	right: 180px;*/
 	padding-left: 10px;
-	margin-right: 10px;
+	
 	border: solid 1px #dddddd;
 	padding-right: 10px;
 
@@ -120,14 +126,14 @@ h2{
 	margin-top:20px;
 	color: teal;
 	font-weight: bold;
-
+	padding-left: 0px;
 
 }
 
 #h2margin{
 	padding-bottom:  10px;
 	border-bottom: solid 3px #dddddd;
-	
+
 }
 
 .inClassAside{
@@ -138,7 +144,7 @@ h2{
 
 .asideImg {
 margin-left: 25px;
-margin-top:5px;
+margin-top:15px;
 
 }
 
@@ -146,15 +152,18 @@ margin-top:5px;
 .txtoverimg{
 	position: relative;
 	float: left;
-	margin: 60px 190px 140px 60px;
+	margin: 120px 200px 140px 60px;
+	padding: 10px
 
 }
 
 .portImage{
 	position: absolute;
+	right:-200px;
+	bottom: -150px;
+	padding-left: 40px;
+	padding-bottom:  30px;
 
-	right:-130px;
-	bottom: -120px;
 
 	
 }
@@ -162,12 +171,17 @@ margin-top:5px;
 .text{
 	position: absolute;
 	top: 80px;
-	left: -20px;
+	left: 20px;
 	color: white;
 	background-color: teal;
  	font-weight: 900;
+ 	font-size: 1.2em;
  	padding-left: 55px;
- 	padding-right: 58px;
+ 	padding-right: 48px;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	text-align: center;
+ 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .floatImg{
@@ -175,69 +189,140 @@ margin-top:5px;
 	padding: 0 10px 10px 0;
 	margin-right: 10px;
 	border: solid 1px #dddddd;
+	margin-top: 20px;
 }
-
-
 
 
 
 .form{
-	width: 555px;
+	width: 655px;
 }
 
 .fields{
-	width: 480px;
-
+	width: 620px;
+	color: #bfbfbf;
 }
 
 
 footer{
-	clear: both;
-	border-top: solid 3px #4aaaa5;
+		
+	border-top: solid 5px #4aaaa5;
 	background-color: gray;
-	margin-top: 250px;
-	height:20px;
+
+	width: 100%;
+
 	padding-top:20px;
 	padding-bottom: 20px;
-	color:white;
+	color:#666666;
 	width: 100%;
 	text-align: center;
+	margin-left:-100px;
+	padding-right: 100px;
+}
 
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 
-@media screen and  (max-width: 980px) {
 
 
-.floatImg{
-	float:none; 
-	text-align: center;
-	position: static;
-	border: solid 1px #dddddd;
-	width: 98%;
-}
-
-p{
-	float:none; 
-	position: static;
-}
-
-}
 
 @media screen and  (max-width: 640px) {
-
-.floatImg{
-	float:none; 
-	text-align: center;
+/*Media query for 640 for index.html page*/
+header{
 	position: static;
-	border: solid 1px #dddddd;
-	width: 98%;
+	width: 100%;	
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+nav{
+	position: static;
+	width: 100%;
+	background: #ffffff;
+	text-align: center;
+	padding-right: -20px;
+	padding-left: -20px;
+	margin-top: -40px;
+}
+
+.links{
+	padding:10px;
+
+}
+
+section{
+	position: static;
+	width: 90%;
+	margin-top: 50px;
+	margin-left: 20px;
+	float:none;
+	margin-bottom: 30px;
+	/*padding-bottom: 600px;*/
+	/*height: auto;*/
+
 }
 
 aside{
+	width: 90%;
 	float:none;
-	position: static;
-	
+	margin-top: -50px;
+	margin-left: 20px;
+
+
 }
+
+.floatImg{
+	float: none;
+	width: 100%;
+}
+
+footer{
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 2px;
+	padding-right: 120px;
+	padding-left: 120px;
+}
+
+/*Media query for 640 for portfolio page to fix the images and text over it*/
+
+
+#h2margin{
+	padding-bottom:  -200px;
+}
+
+.portImage{
+
+	position: static;
+	padding-top: -20px;
+	padding-left: -40px;
+	width: 400px;
+	height:400px;
+
+}
+
+.text{
+	top: 300px;
+	left: 150px;
+}
+
+.txtoverimg{
+	left: -30px;
+	margin: 30px 20px -30px 60px;
+	padding: 10px;
+
+}
+
+/*media queries for 640px contact page*/
+
+.fields{
+	width: 540px;
+}
+
 
 }
