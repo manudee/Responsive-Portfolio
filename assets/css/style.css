@@ -230,6 +230,222 @@ footer{
 
 
 
+
+/*media query for 980px*/
+@media screen and  (max-width: 980px)  {
+/*Media query for 980 for index.html page*/
+header{
+	
+	width: 40%;	
+	text-align: center;
+	margin-left: -10px;
+	background-color: orange;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+nav{
+	width: 30%;
+	background: #ffffff;	
+	margin-top: 5px;
+	margin-right: -200px;
+}
+
+.links{
+	padding:10px;
+
+}
+
+section{
+	
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 90px;	
+	margin-bottom: 30px;
+}
+
+aside{
+	width: 30%;
+	margin-top: 30px;
+	margin-right: 33px;
+	padding-left:0;
+	padding-right: 0;
+}
+
+.asideImg{
+	padding: 3px;
+}
+
+
+.floatImg{
+
+	width: 90%;
+	margin-left: 18px;
+
+
+}
+
+footer{
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 2px;
+	padding-right: 120px;
+	padding-left: 120px;
+}
+
+/*Media query for 980 for portfolio page to fix the images and text over it*/
+
+
+#h2margin{
+	padding-bottom:  -200px;
+}
+
+.portImage{
+
+	position: static;
+	margin-left: -40px;
+	width: 400px;
+	height:400px;
+
+}
+
+.text{
+	top: 300px;
+	left: 50px;
+	margin-left: -40px;
+	padding-right: 247px;
+	text-align: center;
+
+
+}
+
+.txtoverimg{
+	left: -30px;
+	margin: 30px 20px -30px 60px;
+	padding: 10px;
+
+}
+
+/*media queries for 980px contact page*/
+
+.fields{
+	width: 440px;
+}
+
+
+}
+
+
+/*media query for 768 px*/
+@media screen and  (max-width: 768px)  {
+header{
+	
+	width: 50%;	
+	text-align: center;
+	margin-left: -90px;
+	background-color: red;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+nav{
+	width: 30%;
+	background: #ffffff;	
+	margin-top: -5px;
+	margin-right: -200px;
+}
+
+.links{
+	padding:10px;
+
+}
+
+section{
+	
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 10px;	
+	margin-bottom: 30px;
+	padding-left: 40px;
+}
+
+aside{
+	width: 90%;
+	margin-top: 10px;
+	padding-left: 40px;
+	margin-right: 12px;
+}
+
+.inClassAside{
+	text-align: left;
+}
+
+.asideImg{
+	padding: 0px;
+}
+
+
+.floatImg{
+
+	width: 30%;
+	margin-left: 18px;
+
+
+}
+
+footer{
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 2px;
+	padding-right: 120px;
+	padding-left: 120px;
+}
+
+/*Media query for 768 for portfolio page to fix the images and text over it*/
+
+
+#h2margin{
+	padding-bottom:  -200px;
+}
+
+.portImage{
+
+	position: static;
+	margin-left: -20px;
+	width: 200px;
+	height:200px;
+
+
+}
+
+.text{
+	top: 150px;
+	left: 50px;
+	margin-left: -20px;
+	padding-right: 48px;
+	text-align: center;
+
+
+}
+
+.txtoverimg{
+	left: -30px;
+	margin: 30px 20px -30px 60px;
+	padding: 10px;
+
+}
+
+/*media queries for 768 contact page*/
+
+.fields{
+	width: 620px;
+}
+
+
+}
+
+
+
 @media screen and  (max-width: 640px) {
 /*Media query for 640 for index.html page*/
 header{
@@ -237,7 +453,8 @@ header{
 	width: 100%;	
 	text-align: center;
 	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 80px;
+	background-color: yellow;
 }
 
 nav{
@@ -259,7 +476,7 @@ section{
 	
 	width: 90%;
 	margin-top: 50px;
-	margin-left: 20px;	
+	margin-left: 5px;	
 	margin-bottom: 30px;
 	/*padding-bottom: 600px;*/
 	/*height: auto;*/
@@ -270,7 +487,11 @@ section{
 aside{
 	width: 90%;
 	margin-top: 10px;
-	margin-right: 20px;
+	margin-right: 10px;
+
+	padding-left: 40px;
+	margin-left: 180px;
+
 
 }
 
