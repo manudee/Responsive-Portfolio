@@ -256,29 +256,31 @@ nav{
 }
 
 section{
-	position: static;
+	
 	width: 90%;
 	margin-top: 50px;
-	margin-left: 20px;
-	float:none;
+	margin-left: 20px;	
 	margin-bottom: 30px;
 	/*padding-bottom: 600px;*/
 	/*height: auto;*/
+
 
 }
 
 aside{
 	width: 90%;
-	float:none;
-	margin-top: -50px;
-	margin-left: 20px;
-
+	margin-top: 10px;
+	margin-right: 20px;
 
 }
 
+
+
 .floatImg{
-	float: none;
+	/*float: none;*/
 	width: 100%;
+	margin-left: -5px;
+
 }
 
 footer{
@@ -308,7 +310,11 @@ footer{
 
 .text{
 	top: 300px;
-	left: 150px;
+	left: 50px;
+	padding-right: 247px;
+	text-align: center;
+
+
 }
 
 .txtoverimg{
